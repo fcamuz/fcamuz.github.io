@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "King County Housing Sales Price Prediction Model1"
+title:      "King County Housing Sales Price Prediction Model"
 date:       2019-07-08 16:03:33 -0400
 permalink:  king_county_housing_sales_price_prediction_model
 ---
@@ -38,8 +38,5 @@ df.drop(['id'], axis=1, inplace=True)
 df.isna().sum()
 
 The view feature has only 63 missing value, however, waterfront has 2376, and yr_renovated has 3842 null values out of 21597 observations. I will check each one of them individually to see what I can do for those missing values.     
-
-
-
 
 
