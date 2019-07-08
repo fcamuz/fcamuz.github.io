@@ -31,7 +31,7 @@ I will share my data scrubbing journey with you.  It took me 1 week to complete 
 
 Here is how I have done data scrubbing and  feature engineering before jumping on to modelling. 
 
-https://github.com/fcamuz/dsc-1-final-project-online-ds-sp-000/blob/master/Data%20scrubbing%20.ipynb
+[https://github.com/fcamuz/dsc-1-final-project-online-ds-sp-000/blob/master/Data%20scrubbing%20.ipynb](http://)
 
 
 
