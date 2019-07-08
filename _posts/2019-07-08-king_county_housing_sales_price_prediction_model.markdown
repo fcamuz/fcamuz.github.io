@@ -23,9 +23,6 @@ This step includes building your model, iterating with different features to get
 ### Interpret
 Interpreting data is one of the most important steps. It refers to presenting your data, the bussines question that needs to be answered, the answer with the visualisation and accountable insights that is found through the process. Interpereting data means creating a clear, easy to understand story from your results for your non-technical audience.
 
-df.drop(['id'], axis=1, inplace=True)
-
-df.isna().sum()
 # Data Scrubbing 
 Most articles tha I have read says that the magic happens in the modeling part. However, I have figured that the real magic happens after a good data wrangling session. Othervise your magic wand might turn you a frog instead of an awesome dragon.
 
