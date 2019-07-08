@@ -23,12 +23,13 @@ This step includes building your model, iterating with different features to get
 ### Interpret
 Interpreting data is one of the most important steps. It refers to presenting your data, the bussines question that needs to be answered, the answer with the visualisation and accountable insights that is found through the process. Interpereting data means creating a clear, easy to understand story from your results for your non-technical audience.
 
-# Data Scrubbing 
-Most articles tha I have read says that the magic happens in the modeling part. However, I have figured that the real magic happens after a good data wrangling session. Othervise your magic wand might turn you a frog instead of an awesome dragon.
 
-I will share my data scrubbing journey with you.  It took me 1 week to complete this part. It finalley made sense to me that so many people use  same dataset to do the same task whic is price prediction but receives completely different results. 
 
-Here is how I have done data scrubbing and  feature engineering before jumping on to modelling. 
+Most articles that I have read says that the magic happens in the modeling part. However, I have figured that the real magic happens after a good data wrangling session. Othervise your magic wand might turn your model in to a frog instead of a gorgeous dragon.
+
+I will share my data scrubbing journey with you.  It took me 1 week to complete this part. It finally made sense to me why so many people use  same dataset to do the same task which is price prediction but receives completely different results. 
+
+Here is how I have done data scrubbing and  feature engineering before jumping in to modelling.  Just bear with me. After obtaining the data, here comes data scrubbing step;
 
 
 First thing I will check is the null values: I will use .isna() for that purpose. Before that, I will delete the id column which I do not need this feature for this project. 
