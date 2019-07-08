@@ -6,7 +6,7 @@ permalink:  king_county_housing_sales_price_prediction_model
 ---
 
 
-I have done my first linear regression moel project. It was a long journey starting from learning Python and its libraries  to combining them with data analysing methods. I have used OSEMN methodoly to complete this project.  OSEMN is an acronym that represents Obtain, Scrub, Explore, Model, and iNterpret steps. Let me explain each step briefly.
+I have done my first linear regression model project. It was a long journey starting from learning Python and its libraries  to combining them with data analysing methods. I have used OSEMN methodoly to complete this project.  OSEMN is an acronym that represents Obtain, Scrub, Explore, Model, and iNterpret steps. Let me explain each step briefly.
 
 ### Obtain
 This step requires understanding the problem, collecting and obtaining the data that you need.
