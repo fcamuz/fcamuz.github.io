@@ -43,8 +43,3 @@ The view feature has only 63 missing value, however, waterfront has 2376, and yr
 
 
 
-
-
-
-
-
