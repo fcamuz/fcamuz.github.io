@@ -31,10 +31,21 @@ I will share my data scrubbing journey with you.  It took me 1 week to complete 
 
 Here is how I have done data scrubbing and  feature engineering before jumping on to modelling. 
 
-[https://github.com/fcamuz/dsc-1-final-project-online-ds-sp-000/blob/master/Data%20scrubbing%20.ipynb](http://)
+```
+First thing I will check is the null values: I will use .isna() for that purpose. Before that, I will delete the id column which I do not need this feature for this project. 
+
+df.drop(['id'], axis=1, inplace=True)
+
+df.isna().sum()
+
+The view feature has only 63 missing value, however, waterfront has 2376, and yr_renovated has 3842 null values out of 21597 observations. I will check each one of them individually to see what I can do for those missing values.     
 
 
 
+
+
+
+```
 
 
 
