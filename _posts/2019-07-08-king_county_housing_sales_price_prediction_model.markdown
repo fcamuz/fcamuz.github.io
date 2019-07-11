@@ -49,11 +49,21 @@ for yr_renovated, it is a similar case. Too many 0s and some years indicating th
 
 ### Place Holders
 
-sq_basement has a '?' for 454 value. to fix this, I have used a holistic approach to see if the other columns would have infirmation to fill these values.  I made and assumption that,  sq_basement is the differenec between sqft_living and sqft_above. I checked this assumption on the available data and confirmed that it is correct so, I fill the entire colums as: sq_basement values = sqft_living -  sqft_above. 
+sq_basement has a '?' for 454 value. to fix this, I have used a holistic approach to see if the other columns would have infirmation to fill these values.  I made and assumption that,  sq_basement is the differenec between sqft_living and sqft_above. I checked this assumption on the available data and confirmed that it is correct so, I filled the entire colums as: sq_basement values = sqft_living -  sqft_above. 
 
-Then I plot and see the number of 0s are so big  again for the sake of keeping the number of features small, I converted the data 0s and 1s. 
+Then I plotted and saw the number of 0s are so big  again for the sake of keeping the number of features small, I converted the data 0s and 1s indicating the house has a basement or not.  
+
+### Correlation
+
+I checked correlation matrix to see if there is any column that I need to drop. There was strong correlation between sqft_above, bathrooms and sqft_living. I will drop sqft_above because sqft_living might be more handy for further analysis
 
 
+I also checkd the correlation  of all features with the "price" and sorted. 
+
+df.corr()['price'].sort_values(ascending=False)
+
+The correlation between price and zipcode is negative, so I want to drop zipcode as well.
+​
 
 
 
