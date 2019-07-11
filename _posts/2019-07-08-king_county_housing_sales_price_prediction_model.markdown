@@ -85,3 +85,9 @@ I used quantile transformation from sklearn.preprocessing library for continues 
 
 I also created a different dataframe for transformed features so that I can still have access to the original data in the original dataframe. 
 
+Please note that I have done the Exploaration step right after place holders part. You do not want to do a lot of feature engineering before doing the exploation step because you can get much better insight from the raw data.  
+
+So, I hope this post help you for figuring out your road map for data scrubbing step in your project. 
+
+Thanks for reading. 
+
