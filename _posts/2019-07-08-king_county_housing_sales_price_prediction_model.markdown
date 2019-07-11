@@ -31,11 +31,11 @@ I will share my data scrubbing journey with you.  It took me 1 week to complete 
 
 The hardest part for me figuring out where to start and what to do next.  I finally came up with an order after so many trial and fail sessions. Here is the roadmap that I have used in data scrubbing and feature engineering before jumping in to modelling. 
 
-### Unnecessary colums
+###  1-Unnecessary colums
 
 Get rid of unnecessary columns for your model.   I deleted id column.
 
-### Null Values
+### 2-Null Values
 
 I use .isna()  method to see if the value is null in the row.  Also .isna().sum() gives the total number of null values in each columns. 
 
@@ -47,13 +47,13 @@ for view and waterfront, most of the values are zero. So, converting all null va
 
 for yr_renovated, it is a similar case. Too many 0s and some years indicating the year of renovation for the house. When I plot histiogram, total number of zeros are about 30 times more than total number of renovated house. So again, it is vice decision to convert null values in to ''0" . Also for the years renovated, I convert all the year values in to '1' indicating the house was renovated. It will save a lot of extra features that will go through the modeling.  
 
-### Place Holders
+### 3-Place Holders
 
 sq_basement has a '?' for 454 value. to fix this, I have used a holistic approach to see if the other columns would have infirmation to fill these values.  I made and assumption that,  sq_basement is the differenec between sqft_living and sqft_above. I checked this assumption on the available data and confirmed that it is correct so, I filled the entire colums as: sq_basement values = sqft_living -  sqft_above. 
 
 Then I plotted and saw the number of 0s are so big  again for the sake of keeping the number of features small, I converted the data 0s and 1s indicating the house has a basement or not.  
 
-### Correlation
+### 4-Correlation
 
 I checked correlation matrix to see if there is any column that I need to drop. There was strong correlation between sqft_above, bathrooms and sqft_living. I will drop sqft_above because sqft_living might be more handy for further analysis
 
@@ -64,20 +64,20 @@ df.corr()['price'].sort_values(ascending=False)
 
 The correlation between price and zipcode is negative, so I want to drop zipcode as well.
 ​
-### Binning ( yr_built, lat, long  )
+### 5-Binning ( yr_built, lat, long  )
 
 I created 5 bins to create 4 categories for yr_built.  I used for loop to create 10 bins for latitude and longtitude. 
 
-### Data Types
+### 6-Data Types
 I converted nine features to category type.  
 'yr_built','condition','long','lat','waterfront','floors','view', 'bedrooms','sqft_basement'
-I put them in to a list and do this task in a loop.
+I put them in to a list and do this task in a loop. For some features I had to change the data type into integer first and then category.
 
-### One-Hot-Encoding
+### 7-One-Hot-Encoding
 
 Using the same list, i created dummies, added them to a dataframe and dropped the original columns. The new data frame is df_cat representing categorical features.
 
-### Scaling & Normalization
+### 8-Scaling & Normalization
 
 I used quantile transformation from sklearn.preprocessing library for continues features to fix skewness and scaling them.
 
