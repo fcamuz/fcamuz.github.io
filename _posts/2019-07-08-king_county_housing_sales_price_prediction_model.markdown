@@ -29,7 +29,7 @@ Most articles that I have read says that the magic happens in the modeling part.
 
 I will share my data scrubbing journey with you.  It took me 1 week to complete this part. It finally made sense to me why so many people use  same dataset to do the same task which is price prediction but receives completely different results. 
 
-Here is the roadmap that I have used in data scrubbing and feature engineering before jumping in to modelling. 
+The hardest part for me figuring out where to start and what to do next.  I finally came up with an order after so many trial and fail sessions. Here is the roadmap that I have used in data scrubbing and feature engineering before jumping in to modelling. 
 
 ### Unnecessary colums
 
@@ -64,6 +64,24 @@ df.corr()['price'].sort_values(ascending=False)
 
 The correlation between price and zipcode is negative, so I want to drop zipcode as well.
 ​
+### Binning ( yr_built, lat, long  )
 
+I created 5 bins to create 4 categories for yr_built.  I used for loop to create 10 bins for latitude and longtitude. 
 
+### Data Types
+I converted nine features to category type.  
+'yr_built','condition','long','lat','waterfront','floors','view', 'bedrooms','sqft_basement'
+I put them in to a list and do this task in a loop.
+
+### One-Hot-Encoding
+
+Using the same list, i created dummies, added them to a dataframe and dropped the original columns. The new data frame is df_cat representing categorical features.
+
+### Scaling & Normalization
+
+I used quantile transformation from sklearn.preprocessing library for continues features to fix skewness and scaling them.
+
+'price','sqft_living','sqft_lot','sqft_living15','sqft_lot15'
+
+I also created a different dataframe for transformed features so that I can still have access to the original data in the original dataframe. 
 
