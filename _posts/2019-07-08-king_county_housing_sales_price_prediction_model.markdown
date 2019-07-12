@@ -12,7 +12,7 @@ I have done my first linear regression model project. It was a long journey star
 This step requires understanding the problem, collecting and obtaining the data that you need.
 
 ### Scrub
-During this stage, the main task is clean and filter the data. You might need to change some data formats to standardized all across the dataset. Take care of null values, placeholders, etc. In this step, you might also derivate new columns from the current data to make better use of them in your model. Most of the time exploring and scrubbing goes simultaneously. After dealing with null values and placeholders, you would want to do the exploring. Although scaling and normalisation is as a part of the scrubbing step, it is more accurate to do exploring part before doing all those. Also, feature engineering is also part of the scrubbing step which selecting the columns that will be used in your model. So before eliminating the columns, they must be used in the exploration step.
+During this stage, the main task is clean and filter the data. You might need to change some data formats to standardized all across the dataset. Take care of null values, placeholders, etc. In this step, you might also derivate new columns from the current data to make better use of them in your model. Most of the time exploring and scrubbing goes simultaneously. After dealing with null values and placeholders, you would want to do the exploring. Although scaling and normalization are as a part of the scrubbing step, it is more accurate to do exploring part before doing all those. Also, feature engineering is also part of the scrubbing step which selecting the columns that will be used in your model. So before eliminating the columns, they must be used in the exploration step.
 
 ### Explore
 This step focuses on exploring the data you have. Understand each column, inspect the datatypes, be comfortable with the dataset. Exploring dataset should bring up some meaningful business questions and answering them by using the data. Those questions might be given to you or it might be just up to you to make sense out of the dataset you have. You will have to be able to gain some data visualization which can help you identify patterns and trends in your data.
@@ -62,7 +62,7 @@ I also checked the correlation of all features with the "price" and sorted.
 
 df.corr()['price'].sort_values(ascending=False)
 
-The correlation between price and zipcode is negative, so I want to drop zipcode as well.
+The correlation between 'price' and 'zipcode' is negative, so I want to drop zipcode as well.
 ​
 ### 5-Binning ( yr_built, lat, long  )
 
@@ -81,7 +81,7 @@ Using the same list, I created dummies, added them to a data frame and dropped t
 
 I used the quantile transformation from sklearn. preprocessing library for continues features to fix skewness and scaling them.
 
-'price','sqft_living','sqft_lot','sqft_living15','sqft_lot15'
+'price', 'sqft_living', ' sqft_lot', 'sqft_living15', 'sqft_lot15'
 
 I also created a different data frame for transformed features so that I can still have access to the original data in the original data frame. 
 
@@ -92,4 +92,3 @@ So, I hope this post helps you for figuring out your road map for data scrubbing
 Thanks for reading. 
 -- 
 Filiz Camuz
-
