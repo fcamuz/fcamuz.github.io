@@ -33,7 +33,7 @@ The hardest part for me figuring out where to start and what to do next.  I fina
 
 ###  1-Unnecessary colums
 
-Get rid of unnecessary columns for your model.   I deleted id column.
+Get rid of unnecessary columns for your model.   I deleted the 'id' column.
 
 ### 2-Null Values
 
