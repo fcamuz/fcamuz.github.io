@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "King County Housing Sales Price Prediction Model"
+title:      "Roadmap for Data Scrubbing "
 date:       2019-07-08 16:03:33 -0400
 permalink:  king_county_housing_sales_price_prediction_model
 ---
