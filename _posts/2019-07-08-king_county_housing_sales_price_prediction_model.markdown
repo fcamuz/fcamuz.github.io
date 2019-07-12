@@ -27,7 +27,7 @@ Interpreting data is one of the most important steps. It refers to presenting yo
 
 Most articles that I have read says that the magic happens in the modeling part. However, I have figured that the real magic happens after a good data wrangling session. Otherwise, your magic wand might turn your model into a frog instead of a dragon.
 
-I will share my data scrubbing journey with you.  It took me 1 week to complete this part. It finally made sense to me why so many people use the same dataset to do the same task which is price prediction but receives completely different results. 
+I will share my data scrubbing journey with you.  It took me one whole week to complete this part. It finally made sense to me why so many people use the same dataset to do the same task which is price prediction but receives completely different results. 
 
 The hardest part for me figuring out where to start and what to do next.  I finally came up with an order after so many trials and failed sessions. Here is the roadmap that I have used in data scrubbing and feature engineering before jumping into modeling. 
 
