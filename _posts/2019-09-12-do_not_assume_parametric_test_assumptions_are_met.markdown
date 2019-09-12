@@ -45,7 +45,7 @@ Details on all arguments being passed in can be viewed at [this link](https://do
 
 **What if the tests disagree, which they often will?**
 
-You can either investigate why your data is not normal and perhaps use data preparation techniques to make the data more normal. I would recommend only removing some of the outliers but not performing other methods such as scaling and normalization. If that does not work you can start looking into the use of nonparametric statistical methods instead of the parametric methods. Monte Carlo Simulations is one of them. 
+You can either investigate why your data is not normal and perhaps use data preparation techniques to make the data more normal. I would recommend only removing some of the outliers but not performing other methods such as scaling and normalization. If that does not work you can start looking into the use of nonparametric statistical methods instead of the parametric methods. 
 
 Sometimes your data seems close to normal even if not perfect. In many situations like that, you can treat your data as though it is Gaussian and proceed with your chosen parametric statistical methods.
 
@@ -67,7 +67,7 @@ Details on all arguments being passed in can be viewed at [this link](https://do
 
 
 
-### The tests that I use for the project and their assumptions:
+### **The tests that I use for the project and their assumptions:**
 
 #### ANOVA 
 * Each group sample is drawn from a normally distributed population.
