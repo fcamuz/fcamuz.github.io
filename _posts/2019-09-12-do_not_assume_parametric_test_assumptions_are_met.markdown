@@ -7,13 +7,13 @@ permalink:  do_not_assume_parametric_test_assumptions_are_met
 
 ![](http://www.sthda.com/sthda/RDoc/images/statistical-test-assumptions.png)
 
-I completed the project about doing statistical analysis on Nortwind dataset. One of the most surprising part was the test assumptions which took me days of research to figure out what day are and how to handle them. I choosed to run Welch's t-test,one-way ANOVA and two-way ANOVA for my four questions in the project. All has seperate set of assumptions. 
+I completed the project about doing statistical analysis on Nortwind dataset. One of the most time consuming part was the test assumptions. I choosed to run Welch's t-test, one-way ANOVA and two-way ANOVA for my four questions in the project. All has seperate set of assumptions. 
 
-If you have ever dealt with inferential statistics and hyphotesis testing, you probably know what I am talking about. Test assumptions. As far as my research so far, I believe they are mostly underestimated and kind of waived in real world applications. However, those assumtions are actally part of the test and must be looked in to. Otherwise the result might not be as accurate as you would think. 
+If you have ever dealt with inferential statistics and hyphotesis testing, you probably know what I am talking about.  As far as my research so far, I believe they are mostly underestimated and kind of waived in real world applications. However, those assumtions are actally part of the test and must be looked in to. Otherwise the result might not be as accurate as you would think. 
 
 ### What are Test Assumptions?**
 
-In inferential statyistics, there are many statistical tests that one can use for hyphothesis testing. In every different scenerio, you may find a few best suited test to run. However, running the statistical test right away is a wrong practice. Certain assumptions need to be assessed prior to analysis.Depending on the type of statistical analysis, the set of the assumptions may vary. Some of the most common assumptions in statistics are normality and equality of variance.
+In inferential statyistics, there are many statistical tests that one can use for hyphothesis testing. In every different scenerio, you may find a few best suited test to utilize. However, running the statistical test right away is a wrong practice. Certain assumptions need to be assessed prior to analysis. Depending on the type of statistical analysis, the set of the assumptions may vary. Some of the most common assumptions in statistics are normality and equality of variance.
 
 ### Normality Assumption
 
