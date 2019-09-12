@@ -24,7 +24,6 @@ This step includes building your model, iterating with different features to get
 Interpreting data is one of the most important steps. It refers to presenting your data, the business question that needs to be answered, the answer with the visualization and accountable insights that are found through the process. Interpreting data means creating a clear, easy to understand the story from your results for your non-technical audience.
 
 
-
 Most articles that I have read says that the magic happens in the modeling part. However, I have figured that the real magic happens after a good data wrangling session. Otherwise, your magic wand might turn your model into a frog instead of a dragon.
 
 I will share my data scrubbing journey with you.  It took me one whole week to complete this part. It finally made sense to me why so many people use the same dataset to do the same task which is price prediction but receives completely different results. 
