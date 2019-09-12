@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Do NOT Assume Parametric Test Assumptions are Met"
+title:      "Parametric Test Assumptions "
 date:       2019-09-12 16:18:39 -0400
 permalink:  do_not_assume_parametric_test_assumptions_are_met
 ---
