@@ -54,7 +54,7 @@ Sometimes your data seems close to normal even if not perfect. In many situation
 
 Equality of variance (a.k.a., homogeneity of variance) refers to equal variances across different groups or samples.  Equality of variance is usually required for testing mean differences on an independent grouping variable (e.g., t-tests and analyses of variance – ANOVAs/MANOVAs). Equality of variance can be assessed by utilizing Levene’s test for each continuous, dependent variable.  
 
-* Levene’s test utilizes the F test, and if the corresponding p-value is less than .05 (statistical significance), then the assumption of the equality of variance is not met.
+* Levene’s test runs the F test, and if the corresponding p-value is less than .05 (statistical significance), then the assumption of the equality of variance is not met.
 
 ```python
 stats.levene(birthday['Quantity'][birthday['Generation'] == "Millennial"],
@@ -67,7 +67,7 @@ Details on all arguments being passed in can be viewed at [this link](https://do
 
 
 
-### **The tests that I use for the project and their assumptions:**
+### The tests that I use for the project and their assumptions:
 
 #### ANOVA 
 * Each group sample is drawn from a normally distributed population.
