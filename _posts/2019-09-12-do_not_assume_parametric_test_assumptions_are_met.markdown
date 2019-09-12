@@ -1,19 +1,17 @@
 ---
 layout: post
-title:      "Do NOT Assume Parametric Test Assumptions are Met!"
+title:      "Do NOT Assume Parametric Test Assumptions are Met"
 date:       2019-09-12 16:18:39 -0400
 permalink:  do_not_assume_parametric_test_assumptions_are_met
 ---
 
-
-<img src='statistical-test-assumptions.png' width="600" height="300" align='right'>
-
+![](http://www.sthda.com/sthda/RDoc/images/statistical-test-assumptions.png)
 
 I completed the project about doing statistical analysis on Nortwind dataset. One of the most surprising part was the test assumptions which took me days of research to figure out what day are and how to handle them. I choosed to run Welch's t-test,one-way ANOVA and two-way ANOVA for my four questions in the project. All has seperate set of assumptions. 
 
 If you have ever dealt with inferential statistics and hyphotesis testing, you probably know what I am talking about. Test assumptions. As far as my research so far, I believe they are mostly underestimated and kind of waived in real world applications. However, those assumtions are actally part of the test and must be looked in to. Otherwise the result might not be as accurate as you would think. 
 
-### What are Test Assumptions?
+### What are Test Assumptions?**
 
 In inferential statyistics, there are many statistical tests that one can use for hyphothesis testing. In every different scenerio, you may find a few best suited test to run. However, running the statistical test right away is a wrong practice. Certain assumptions need to be assessed prior to analysis.Depending on the type of statistical analysis, the set of the assumptions may vary. Some of the most common assumptions in statistics are normality and equality of variance.
 
@@ -21,10 +19,11 @@ In inferential statyistics, there are many statistical tests that one can use fo
 
 Normality assumption requires that the continuous variables to be used in the analysis are normally distributed. All parametric tests required some sort of normal distibuted data (a.k.a. Gaussian Distribution).The tests are quite robust to departures of non-normality so the data needs to be approximately normally distributed. Plotting a histogram or QQ plot of the variable of interest will give an indication of the shape of the distribution. Histograms should peak in the middle and be approximately symmetrical about the mean follow a ‘bell-shaped’ distribution. If data is normally distribued, the points in QQ plots will be close to the line.
 
+![](https://mathbitsnotebook.com/Algebra2/Statistics/normalturqa.jpg)
 
-<img src='download (1).png' width="300" height="300">
+![](http://onlinestatbook.com/2/advanced_graphs/graphics/qq_fig_6.jpg)
 
-<img src='qq_plot_figure 11.jpg' width="600" height="300">
+
 
 Normality is typically assumed in the tests for calculating mean differences (e.g., t-tests and ANOVAs/MANOVAs) and prediction analyses (e.g., linear regression analyses).  **Normality can be examined by several methods, three of which are the Kolmogorov Smirnov (KS) test, Shapiro-Wilk test and the examination of skew and kurtosis. ** 
 
