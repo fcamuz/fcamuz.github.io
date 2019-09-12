@@ -57,30 +57,9 @@ Equality of variance (a.k.a., homogeneity of variance) refers to equal variances
 * Levene’s test runs the F test, and if the corresponding p-value is less than .05 (statistical significance), then the assumption of the equality of variance is not met.
 
 ```python
-stats.levene(birthday['Quantity'][birthday['Generation'] == "Millennial"],
-             birthday['Quantity'][birthday['Generation'] == "Gen_z"],
-             birthday['Quantity'][birthday['Generation'] == "Gen_x"]) ```
+stats.levene(sample1group1, sample1group2, sample1group3..```
 
 Details on all arguments being passed in can be viewed at [this link](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.levene.html) to the official doc.
 
-
-**The tests that I use for the project and their assumptions:**
-
-
-#### ANOVA 
-* Each group sample is drawn from a normally distributed population.
-* All populations have a common variance.
-* All samples are drawn independently of each other.
-* Within each sample, the observations are sampled randomly and independently of each other.
-* Factor effects are additive.
-
-#### Student t-test
-* Samples are drawn from a normally distributed population.
-* All populations have a common variance.
-* All samples are drawn independently of each other.
-
-#### Welche's t-test
-* Samples are drawn from a normally distributed population.
-* All samples are drawn independently of each other.
 
 
