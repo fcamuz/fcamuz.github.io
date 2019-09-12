@@ -33,7 +33,7 @@ stats.kstest(data['Quantity'], 'norm', args=(0,2))```
 Details on all arguments being passed in can be viewed at [this link](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.kstest.html) to the official doc.
 
 
-* The **Shapiro-Wilk Test** The Shapiro-Wilk test evaluates a data sample and quantifies how likely it is that the data was drawn from a Gaussian distribution, named for Samuel Shapiro and Martin Wilk. The shapiro() SciPy function will calculate the Shapiro-Wilk on a given dataset. The function returns both the W-statistic calculated by the test and the p-value.
+* The **Shapiro-Wilk Test**  evaluates a data sample and quantifies how likely it is that the data was drawn from a Gaussian distribution. The shapiro() SciPy function will calculate the Shapiro-Wilk on a given dataset. The function returns both the W-statistic calculated by the test and the p-value.
 
 ```python
 stats.shapiro(data['Quantity'])```
