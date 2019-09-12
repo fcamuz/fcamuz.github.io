@@ -11,7 +11,7 @@ I completed the project about doing statistical analysis on Nortwind dataset. On
 
 If you have ever dealt with inferential statistics and hypothesis testing, you probably know what I am talking about.  As far as my research so far, I believe they are mostly underestimated and kind of waived in real-world applications. However, those assumptions are actually part of the test and must be looked in to. Otherwise, the result might not be as accurate as you would think.
 
-### What are Test Assumptions?
+### **What are Test Assumptions?**
 
 In inferential statistics, there are many statistical tests that one can use for hypothesis testing. In every different scenario, you may find a few best-suited tests to utilize. However, running the statistical test right away is a wrong practice. Certain assumptions need to be assessed prior to analysis. Depending on the type of statistical analysis, the set of assumptions may vary. Some of the most common assumptions in statistics are normality and equality of variance.
 
@@ -21,7 +21,6 @@ Normality assumption requires that the continuous variables to be used in the an
 ![](https://mathbitsnotebook.com/Algebra2/Statistics/normalturqa.jpg)
 
 ![](http://onlinestatbook.com/2/advanced_graphs/graphics/qq_fig_6.jpg)
-
 
 Normality is typically assumed in the tests for calculating mean differences (e.g., t-tests and ANOVAs/MANOVAs) and prediction analyses (e.g., linear regression analyses).  **Normality can be examined by several methods, three of which are the Kolmogorov Smirnov (KS) test, Shapiro-Wilk test and the examination of skew and kurtosis. ** 
 
