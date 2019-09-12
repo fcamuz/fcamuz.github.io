@@ -64,10 +64,8 @@ stats.levene(birthday['Quantity'][birthday['Generation'] == "Millennial"],
 Details on all arguments being passed in can be viewed at [this link](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.levene.html) to the official doc.
 
 
+**The tests that I use for the project and their assumptions:**
 
-
-
-### The tests that I use for the project and their assumptions:
 
 #### ANOVA 
 * Each group sample is drawn from a normally distributed population.
