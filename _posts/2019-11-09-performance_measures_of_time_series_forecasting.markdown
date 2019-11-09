@@ -19,11 +19,12 @@ There are a few measures to obtain from comparison of predicted and expected (re
 -	Mean Squared Error (MSE)
 -	Root Mean Squared Error (RMSE)
 
-### Residual Forecast Error (RFE)
+### **Residual Forecast Error (RFE)**
 Residual Forecast Error is the difference between the forecasted data and the actaul data for the same time stamp in the dataset. For each data point in the test set, it is sum of the real value minus the predicted value. It could be positive or negative for different points. This might be tricky because a very large positive mistake can be cancelled out by another large negative mistake. When add them up the number we get is the Residual Forecast Error. Since the unit is the same with the values in the dataset, we may draw conclusion easily. If the number is close or equal to “0”, that indicates the model’s predictions are very accurate. 
 
 ### Mean Forecast Error (or Forecast Bias)
 Residual Forecast Error is the sum of Forecast Errors. The average of the forecast errors is the Mean Forecast Error (MFE). So for the n size of the test data, the formula is RFE / n. It can be a positive or a negative value. If it is positive, it means, the model tends to over forecast and it is called positive error. If it is negative, that means the model tends to under forecasts and it is called negative error. This number is also called as Forecast Bias. A close number to zero suggests that model is unbiased. 
+
 ### Mean Absolute Error (MAE)
 For Mean Absolute Error, all errors (negative or positive) count as positive. This gives a real picture of total errors since they do not cancell each other out.  The average of absolute value of errors gives as Mean Absolute Error.
 
