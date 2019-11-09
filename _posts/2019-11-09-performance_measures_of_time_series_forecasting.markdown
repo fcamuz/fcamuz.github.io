@@ -39,5 +39,4 @@ Let us see all of these measeure calculations in a real example.
 ![](https://raw.githubusercontent.com/fcamuz/dsc-sarima-models-lab-online-ds-sp-000/master/pic1.png  ) 
 ![](https://raw.githubusercontent.com/fcamuz/dsc-sarima-models-lab-online-ds-sp-000/master/pic2.png  ) 
 ![](https://raw.githubusercontent.com/fcamuz/dsc-sarima-models-lab-online-ds-sp-000/master/pic3.png  ) 
-![](https://raw.githubusercontent.com/fcamuz/dsc-sarima-models-lab-online-ds-sp-000/master/pic4Performance Measures of Time Series Forecasting
-.png  ) 
+![](https://raw.githubusercontent.com/fcamuz/dsc-sarima-models-lab-online-ds-sp-000/master/pic4.png  ) 
