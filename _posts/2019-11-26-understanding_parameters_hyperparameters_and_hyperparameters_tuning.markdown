@@ -5,8 +5,8 @@ date:       2019-11-26 23:14:38 -0500
 permalink:  understanding_parameters_hyperparameters_and_hyperparameters_tuning
 ---
 
-
-
+!![](https://raw.githubusercontent.com/fcamuz/dsc-mod-5-project-online-ds-sp-000/master/pic.png)
+![](http://)
 
 Model hyperparameters and model parameters have been used interchangeably in online platforms. It is confusing for many people who are less seasoned in machine learnig area. Eventhough two words replace each other in formal and informal conversations, there is a clear distiction in between based on their role and interaction in machine learning process.
 
