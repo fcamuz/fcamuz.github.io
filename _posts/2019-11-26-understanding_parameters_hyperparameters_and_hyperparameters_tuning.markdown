@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Understanding Parameters, Hyperparameters and Hyperparameters Tuning"
-date:       2019-11-27 04:14:37 +0000
+date:       2019-11-26 23:14:38 -0500
 permalink:  understanding_parameters_hyperparameters_and_hyperparameters_tuning
 ---
 
@@ -41,7 +41,7 @@ Hyper-parameters are those, which we supply to the model. They are often referre
 
 **Examples;**
 
-k-means clustering 
+k-means clustering
 Number of clusters expected 
 
 Random Forest Model:  
