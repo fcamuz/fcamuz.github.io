@@ -5,11 +5,11 @@ date:       2019-11-26 23:14:38 -0500
 permalink:  understanding_parameters_hyperparameters_and_hyperparameters_tuning
 ---
 
-!![](https://raw.githubusercontent.com/fcamuz/dsc-mod-5-project-online-ds-sp-000/master/pic.png)
-![](http://)
+
 
 Model hyperparameters and model parameters have been used interchangeably in online platforms. It is confusing for many people who are less seasoned in machine learnig area. Eventhough two words replace each other in formal and informal conversations, there is a clear distiction in between based on their role and interaction in machine learning process.
 
+!![](https://raw.githubusercontent.com/fcamuz/dsc-mod-5-project-online-ds-sp-000/master/pic.png)
 
 Hyperparameters are values decided outside of model training process whereas parameters are found out during the model training. We built the model with a set of hyperparameters and feed it with the data. At the end of fitting, Aka training, it produces parameters. Another important point of distinction is that, prediction is based on model parameters and not the hyper-parameters.
 
@@ -76,14 +76,15 @@ The balance between the perfect fit for hyperparameters and the work-load is cru
 Recently, Some applications, such as Vizier also make grid search autonomus. 
 Google Vizier makes the recipe millions of times, noting potentially thousands of differences when hyperparameters are changed. The network does this until some best solution is found, as originally defined by humans. However, the tuning algorithm is also a black box—this method gives no insight into biases it might instill into the original neural network. But handling such important job is quite valuable in machine learning as the quality and speed of the model is depending on the result of the tuning process. 
 
+What makes the difference between a good and a bad machine learning model depends on one’s ability to understand all the details of the model including knowledge about different hyperparameters and how these parameters can be tuned in order to obtain the model with the best performance. Using any machine learning model as a black box without fully understanding the intricacies of the model will lead to a falsified model.
+
 
 
 References
 
 https://qz.com/1053431/google-tested-its-ai-by-having-it-fine-tune-chocolate-chip-cookie-recipes/
 
-
-
+https://towardsdatascience.com/model-parameters-and-hyperparameters-in-machine-learning-what-is-the-difference-702d30970f6
 
  
 
