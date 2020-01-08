@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A machine learning model for fraud detection in mobile  transactions"
-date:       2020-01-08 22:58:45 +0000
+date:       2020-01-08 17:58:46 -0500
 permalink:  a_machine_learning_model_for_fraud_detection_in_mobile_transactions
 ---
 
