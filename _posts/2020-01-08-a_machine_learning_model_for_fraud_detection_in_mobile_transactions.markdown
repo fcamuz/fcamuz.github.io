@@ -76,11 +76,13 @@ data=pd.read_csv('paysim.csv')
 ```
 ```python
 #Check if there is anu null values
+
 data.isna().sum().sum()
 
 0
 
 #check for duplicate values
+
 data.duplicated(keep='first').any()
 
 False
@@ -93,10 +95,14 @@ I will filter the data by the labels and examine two groups compairing each othe
 ```python
 
 # Filter data by the labels. Safe and Fraud transaction
+
 safe = data[data['isFraud']==0]
 fraud = data[data['isFraud']==1]
-In [16]:
-#See the frequency of the transactions for each class on the same plot.
+```
+
+See the frequency of the transactions for each class on the same plot.
+
+```python
 plt.figure(figsize=(10, 3))
 sns.distplot(safe.step, label="Safe Transaction")
 sns.distplot(fraud.step, label='Fraud Transaction')
@@ -106,12 +112,14 @@ plt.title('Distribution of Transactions over the Time')
 plt.legend()
 ```
 
+
 ![fraud](https://raw.githubusercontent.com/fcamuz/fraud-detection-for-mobile-transactions/master/images/Slide6.png)
 
 
 Eventhough safe transactions slows down in 3rd and 4th day and after 16th day of the month, fraud transactions happens at a steady pace. Especially in the second half of the month there are much less safe transactions but number of fraud transactions does not decrease at all.
 
 ### Hourly Transaction Amounts
+
 ```python
 #just use small portion of data to scatterplot the transaction happens every hour and their amount. 
 smalldata=data.sample(n=100000, random_state=1)
@@ -168,7 +176,7 @@ Name: amount, Length: 3977, dtype: int64
 
 There are fraud transactions in $1M amount for 287 times. And this is the max amount of fraud transactions. Most of the frauds happens below $400000 so lets check the average amount for those transactions.
 
-￼![fraud](https://raw.githubusercontent.com/fcamuz/fraud-detection-for-mobile-transactions/master/images/Slide9.png)
+![fraud](https://raw.githubusercontent.com/fcamuz/fraud-detection-for-mobile-transactions/master/images/Slide9.png)
 
 
 Fraud transaction happens in a large range such as $119 to 10M. The Frequency distribution of Amount of money involved in Fraud transactions is Positively Skewed. Most of the fraud transactions are of Lesser amount. Majority of fraud transactions are lower than 1M. But in 1M there is an interesting increase similar to safe transactions. And that is also max amount in all fraud incidents. There are also some fraud labeled transaction that have 0 amount. This is strange. I want to see those instances, there are 16 of them.
@@ -193,11 +201,13 @@ Fraud activities only happens with transfer and cash_out transactions. Debit usa
 ```python
 #proportion of number of frauds 
 data.isFraud.value_counts()[1]/(data.isFraud.value_counts()[0]+data.isFraud.value_counts()[1])
-
+```
+```
 0.001290820448180152
 ```
 
 Fraud transactions are only 0.01% of the safe transactions. Target class is pretty skewed. It might be problem in the model but we will see.
+
 ```python
 #proportion of fraud amount
 fraud.amount.sum()/(safe.amount.sum()+fraud.amount.sum())
@@ -206,7 +216,7 @@ fraud.amount.sum()/(safe.amount.sum()+fraud.amount.sum())
 ```
 Total money was stolen is 0.1% of safe transaction amount.
 
-￼![fraud](https://raw.githubusercontent.com/fcamuz/fraud-detection-for-mobile-transactions/master/images/Slide5.png)
+![fraud](https://raw.githubusercontent.com/fcamuz/fraud-detection-for-mobile-transactions/master/images/Slide5.png)
 
 
 
@@ -220,6 +230,7 @@ data_by_type=data[data['type'].isin(['TRANSFER','CASH_OUT'])]
 ```
 
 This data is too big to work with a machine learning algorithm. I will get random subsample from this dataframe just big enough to built a machine learning model. For such project 100000 instance would be good.
+
 ```python
 #subsample data , get 100000 instances to train model
 df=data_by_type.sample(n=100000, random_state=1)
@@ -229,8 +240,10 @@ df=df.reset_index(drop=True)
 
 
 
-### Dealing with name columns¶
+### Dealing with name columns
+
 nameOrig and nameDest columns are supposed to be the names of the peeople. At this moment, they can not be used in machine learning model. But if there is any repeting transaction between two people that might me useful information for classifier.I can create a new column with numeric value with repeat info. Let me check.
+
 ```python
 #checking if there is any repetes transaction in between two parties.
 list1=np.array(df.nameOrig)
