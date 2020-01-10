@@ -5,7 +5,7 @@ date:       2020-01-09 22:25:33 -0500
 permalink:  bussiness_analysis_with_statistical_testing
 ---
 
-![Download Dataset](https://github.com/fcamuz/bussines-analysis-with-statistical-testing/blob/master/images/title.png)
+![img](https://github.com/fcamuz/bussines-analysis-with-statistical-testing/blob/master/images/title.png)
 
 
 The goal of this project is to do statistical analysis and hypothesis testing to generate valuable analytical insights for the company.  In this I will share one A/B test with you a one question. The question is **where and when Northwind company should start offering a new line of cheese.**
@@ -80,14 +80,21 @@ I will create an engine to connect to SQL Database and send quesries as I needed
 
 ```python
 # connecting to the Database using SQLAlchemy
+
 engine = create_engine("sqlite:///Northwind_small.sqlite")
 ​
 # create an inspector object
+
 inspector = inspect(engine)
 ​
 # get names of tables in database
+
 print(inspector.get_table_names())
+```
+```python
 ['Category', 'Customer', 'CustomerCustomerDemo', 'CustomerDemographic', 'Employee', 'EmployeeTerritory', 'Order', 'OrderDetail', 'Product', 'Region', 'Shipper', 'Supplier', 'Territory']
+```
+```python
 # write a quick function that prints the columns of a table and each column's type
 ​
 def get_columns_info(table_name):    
@@ -98,7 +105,9 @@ def get_columns_info(table_name):
     print(f"Table Name: {table_name}\n")
     for col in cols_list:
         print(f"Name: {col['name']} \t Type: {col['type']}")
+
 # calling the function to test it
+
 get_columns_info('OrderDetail')
 ```
 
