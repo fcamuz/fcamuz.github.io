@@ -5,7 +5,7 @@ date:       2020-01-09 22:25:33 -0500
 permalink:  bussiness_analysis_with_statistical_testing
 ---
 
-![img](https://github.com/fcamuz/bussines-analysis-with-statistical-testing/blob/master/images/title.png)
+![img](https://github.com/fcamuz/fcamuz.github.io/tree/master/img/title.png)
 
 
 The goal of this project is to do statistical analysis and hypothesis testing to generate valuable analytical insights for the company.  In this I will share one A/B test with you a one question. The question is **where and when Northwind company should start offering a new line of cheese.**
@@ -361,7 +361,7 @@ posthoc = statsmodels.stats.multicomp.MultiComparison(data['Revenue'], data['Reg
 posthoc_results = posthoc.tukeyhsd()
 print('\n', posthoc_results)​
 ```
-![img](https://github.com/fcamuz/bussines-analysis-with-statistical-testing/blob/master/images/img4.png)
+![img](https://raw.githubusercontent.com/fcamuz/bussines-analysis-with-statistical-testing/blob/master/images/img4.png)
 
 ```python
 posthoc_results
