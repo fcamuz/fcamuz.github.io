@@ -57,7 +57,6 @@ You've asked a question, looked at experimental results from others that could b
 - Analyze the result
 
 ## Statistical Tests
-
 Statistical tests that performed for this A/B testing:
 - two-way Anova test
 - KS test 
@@ -66,14 +65,12 @@ Statistical tests that performed for this A/B testing:
 
 
 ## Bussines Problem
-
 Where and when should Northwind company start offering a new line of cheese?
 To be able answer explore the answer to this question we need to ask another question. **Does the revenue of dairy product (cheese) differs by any combination of region and the time of the years?** The answer is yes or no. We can figure this with A/B testing. 
 
 The data is in a SQL database. There are several ways to retreive data from such database. You can load all of the data in to dataframe at once and deal within just Python. But I will only query the data parts that I will use as a good practice of reducing the load for the processor. Since SQL is a lot faster than Pyhton in data processing, I also will do filtering and extracting data in SQL query as much as I can.
 
 ### Loading Data
-
 I will create an engine to connect to SQL Database and send quesries as I needed.
 
 #### Creating engine to connect to Database and send queries 
@@ -212,6 +209,7 @@ stats.kstest(data.Revenue, 'norm', args=(0,2))
 KstestResult(statistic=0.9999893114742251, pvalue=0.0)
 ```
 p_value is 0, so we can not say that the distribution is normal however when the sample size is sufficiently large, Anova can still perform well.
+
 #### Equal Variances Check
 
 ```python
@@ -261,7 +259,6 @@ You may check the OLS Regression Results and summary with summary() method.
 ```python
 lm2.summary()
 ```
-
 By looking at the p value, we fail to reject null hypothesis for factor A ,C and Factor A and B interaction. That mean we can suggest that the average revenue for dairy products are not significantly different at anytime of the year and at any region. However, we can still look at those categories to see the small differences.
 
 There are a few different methods of post-hoc testing to find a difference between groups of factors. I will use Tukey’s HSD from 2 different libraries. It basically compares each pair combination available in a group.
@@ -383,7 +380,6 @@ for i in regions:
 ![img](https://github.com/fcamuz/bussines-analysis-with-statistical-testing/blob/master/images/img7.png)
 
 ## Conclusion
-
 According to ANOVA tests result, we fail to reject the null hypothesis. So, neither region nor the time of the year does not effect the average revanue from dairy product significantly.
 
 That would mean Cheese is a timeless product. It can be sold anywhere and anytime.
