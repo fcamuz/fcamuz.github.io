@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bussiness Analysis with Statistical Testing"
-date:       2020-01-10 03:25:32 +0000
+date:       2020-01-09 22:25:33 -0500
 permalink:  bussiness_analysis_with_statistical_testing
 ---
 
