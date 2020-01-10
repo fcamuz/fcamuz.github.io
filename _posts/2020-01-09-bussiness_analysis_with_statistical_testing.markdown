@@ -68,7 +68,7 @@ Statistical tests that performed for this A/B testing:
 ## Bussines Problem
 
 Where and when should Northwind company start offering a new line of cheese?
-To be able answer explore the answer to this question we need to ask another question. **Does the revenue of dairy product (cheese) differs by any combination of region and the time of the years?** The answer is yes or no. We can figure this by A/B yesting. 
+To be able answer explore the answer to this question we need to ask another question. **Does the revenue of dairy product (cheese) differs by any combination of region and the time of the years?** The answer is yes or no. We can figure this with A/B testing. 
 
 The data is in a SQL database. There are several ways to retreive data from such database. You can load all of the data in to dataframe at once and deal within just Python. But I will only query the data parts that I will use as a good practice of reducing the load for the processor. Since SQL is a lot faster than Pyhton in data processing, I also will do filtering and extracting data in SQL query as much as I can.
 
