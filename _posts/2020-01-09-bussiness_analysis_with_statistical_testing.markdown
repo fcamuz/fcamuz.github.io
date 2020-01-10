@@ -48,6 +48,7 @@ During this step, you will tease out relationships, filter out noise, and try to
 You've asked a question, looked at experimental results from others that could be related to your question, made an educated guess, designed an experiment, collected data and analyzed the results. The reality of this step is that you use your analysis of the data to do one of two things: either reject the null hypothesis or fail to reject the null hypothesis.
 
 ## Steps  
+
 - Question
 - Query the data
 - EDA
