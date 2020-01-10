@@ -28,7 +28,6 @@ In this project I trained several models to detect fraud transactions. I have st
 - 4.Machine Learning Pipeline
 - 5.Feature Importance
 - 6.Conclusion
-- 7.Future Works
 
 ### Data
 I used Kaggle's Paysim dataset. It simulates mobile money transactions based on a sample of real transactions extracted from one month of financial logs from a mobile money service implemented in an African country. The original logs were provided by a multinational company, who is the provider of the mobile financial service which is currently running in more than 14 countries all around the world.
@@ -803,12 +802,4 @@ Performence has increased after five iterations and finally reached to;
 - There are 16 fake fraud cases  with '0' amount.
 - Fraud activities only happens with TRANSFER and CASH_OUT transactions. DEBIT usage is very safe.
 
-
-## 7.Future Work
-
-- I would like reindex this dataset with timestapms and analyze it as time series. I believe I would find some seosonality on both fraud transaction frequency and amount as well. 
-- It migth also help to predict fraud transactions, that way companies could be axtra cautios.
-
-
- 
 
