@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tackling Climate Change with Machine Learning  "
-date:       2020-02-21 01:23:39 +0000
+date:       2020-02-20 20:23:40 -0500
 permalink:  tackling_climate_change_with_machine_learning
 ---
 
@@ -10,12 +10,12 @@ Me and my data quest team-mates went for a Mindfire Global data challenge. And w
 During my research about this topic, I came accross this paper. Tackling Climate Change with Machine Learning. I wanted to summarize this paper so that me and my team-mates could skim this extensive study and get ideas of areas to implement machine learning to solve this issue.  
 
 This paper aims to provide an overview of where machine learning can be applied with high impact in the
-fight against climate change, through either effective engineering or innovative research. The paper is written for four group of people which are, researchers and engineers, entrepreneurs and investors, corporate leaders, local and national governments.  As data science community, we are ![](http://)natural party of this discussion. 
+fight against climate change, through either effective engineering or innovative research. The paper is written for four group of people which are, researchers and engineers, entrepreneurs and investors, corporate leaders, local and national governments.  As data science community, we are natural party of this discussion. 
 
 
 ### Summary of "Tackling Climate Change with Machine Learning" 
 
-https://arxiv.org/pdf/1906.05433.pdf
+[https://arxiv.org/pdf/1906.05433.pdf](http://arxiv.org/pdf/1906.05433.pdf)
 
 "Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in
 reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids
@@ -111,7 +111,7 @@ facilities. Although many of these applications are speculative, the industry is
 more data and more opportunities for ML approaches to help.
 
 **Adaptation**
-## 7- Climate Prediction
+### 7- Climate Prediction
 
 Recent trends have created opportunities for ML to advance the state-of-the-art in climate prediction. First, new and cheaper satellites are creating petabytes of climate observation data. Second, massive climate modeling projects are generating petabytes of simulated climate data. Third, climate forecasts
 are computationally expensive (the simulations in took three weeks to run on NCAR supercomputers), while ML methods are becoming increasingly fast to train and run, especially on next-generation
