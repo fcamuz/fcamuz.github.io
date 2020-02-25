@@ -550,6 +550,7 @@ ch.show('png')
 
 
 # Plot the data
+```python
 (chartify.Chart(
     blank_labels=True,
     x_axis_type='categorical',
@@ -589,7 +590,7 @@ ch.plot.histogram(
 ch.show('png')
 ```    
 
-![png](output_34_3.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_34_3.png)
 
 
 
@@ -621,7 +622,7 @@ ch.set_legend_location('outside_bottom')
 ch.show('png')
  ``` 
 
-![png](output_40_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_40_1.png)
 
 ## Color Palettes
 There is a large color palettes that you can use in chartify. 
@@ -650,7 +651,7 @@ chartify.color_palettes.show()
 ```
 
 <h2>Color Palettes</h2><div><div style='padding: 10px; margin: 5px;'>
-                  <h3>Category20</h3><div style="width: 200px;
+                  <h4>Category20</h4><div style="width: 200px;
                         height: 20px;
                         background-color: #1f77b4;
                         color: black;
