@@ -8,7 +8,7 @@ permalink:  chartify_is_a_python_library_that_makes_it_easy_charts
 
 Chartify is an alternative visulization tool such as Seaborn in Python. It is an open-source Python library that wraps Bokeh to make it easier for data scientists to create charts.
 
-I will show you only a few plots here in this blog. But there are a lot more you can do with this library and many parameters that you may change to create chart spesific to your needs. To see all other option you may visit the [Chartify Github Repo](https://github.com/spotify/chartify).
+I will show you only a few different types of plots here in this blog. However, there is a lot more you can do with this library and many parameters that you may change to create charts which spesific to your needs. To see all other options and detailed information about this library, you may visit the [Chartify Github Repo](https://github.com/spotify/chartify).
 
 
 
@@ -622,7 +622,7 @@ ch.show('png')
 ![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_40_1.png)
 
 ## Color Palettes
-There is a large color palettes that you can use in chartify. 
+There are many color palettes that you can use in chartify. 
 
 ```python
 chartify.color_palettes
@@ -648,7 +648,7 @@ chartify.color_palettes.show()
 ```
 
 <h2>Color Palettes</h2><div><div style='padding: 10px; margin: 5px;'>
-                  <h4>Category20</h4><div style="width: 200px;
+                  <h3>Category20</h3><div style="width: 200px;
                         height: 20px;
                         background-color: #1f77b4;
                         color: black;
