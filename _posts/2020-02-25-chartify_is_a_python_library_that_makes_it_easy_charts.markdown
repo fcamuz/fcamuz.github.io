@@ -185,10 +185,7 @@ ch.set_title("Scatterplot")
 ch.set_subtitle("Plot two numeric values.")
 ch.show('png')
 ```
-
-![png](Examples/output_8_1.png)
-
-![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_10_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_8_1.png)
 
 You may define 
 
@@ -208,7 +205,7 @@ ch.show('png')
 
 
 
-![png](output_8_5.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_8_5.png)
 
 
 ## Text
@@ -250,7 +247,7 @@ ch.show('png')
     
 ```
 
-![png](output_10_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_10_1.png)
 
 
 ## Line
@@ -283,7 +280,7 @@ ch.show('png')
 ```
 
 
-![png](output_12_3.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_12_3.png)
 
 
 ## Area
@@ -325,7 +322,7 @@ ch.plot.line(
 ch.show('png')
 ```
 
-![png](output_14_5.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_14_5.png)
 
 
 ## Bar plot
@@ -352,7 +349,7 @@ ch.axes.hide_yaxis()
 ch.show('png')
 ```   
 
-![png](output_17_7.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_17_7.png)
 
 
 # Bar (grouped)
@@ -384,7 +381,7 @@ ch.show('png')
 
 
 
-![png](output_19_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_19_1.png)
 
 
 ```python   
@@ -400,7 +397,7 @@ ch.plot.bar(
     color_column='country')
 ch.show('png')
 ```
-![png](output_19_3.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_19_3.png)
 
 
 ```python
@@ -420,9 +417,7 @@ ch.show('png')
 ```
     
 
-
-
-![png](output_19_7.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_19_7.png)
 
 
 ## Lollipop
@@ -452,7 +447,7 @@ ch.plot.lollipop(
 ch.show('png')
 ```    
 
-![png](output_23_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_23_1.png)
 
 
 ## Bar (Stacked)
@@ -483,7 +478,7 @@ print(quantity_by_fruit_and_country.head())
     .show('png'))
 ```    
 
-![png](output_25_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_25_1.png)
 
 
 ```python
@@ -518,7 +513,7 @@ None)
     )
 .show('png'))
 ```    
-![png](output_25_7.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_25_7.png)
 
 ## Parallel coordinate plot
 ```python
@@ -545,7 +540,7 @@ ch.plot.parallel(
 ch.show('png')
 ```
 
-![png](output_27_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_27_1.png)
 
 
 ## Heatmap
