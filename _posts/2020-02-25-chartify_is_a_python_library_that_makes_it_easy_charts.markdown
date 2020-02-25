@@ -8,8 +8,8 @@ permalink:  chartify_is_a_python_library_that_makes_it_easy_charts
 
 Chartify is an alternative visulization tool such as Seaborn in Python. It is an open-source Python library that wraps Bokeh to make it easier for data scientists to create charts.
 
-I will show you only a few plots here in this blog. But there are a lot more you can do with this library and many parameters that you may change to create chart spesific to your needs. To see all other option you may visit the Chartify Github Repo.
-https://github.com/spotify/chartify
+I will show you only a few plots here in this blog. But there are a lot more you can do with this library and many parameters that you may change to create chart spesific to your needs. To see all other option you may visit the [Chartify Github Repo](https://github.com/spotify/chartify).
+
 
 
 ## Installation
@@ -187,7 +187,6 @@ ch.show('png')
 ```
 ![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_8_1.png)
 
-You may define 
 
 ```python   
 # Plot the data
@@ -352,7 +351,7 @@ ch.show('png')
 ![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_17_7.png)
 
 
-# Bar (grouped)
+## Bar (grouped)
 
 ```python
 quantity_by_fruit_and_country = (data.groupby(
@@ -516,6 +515,7 @@ None)
 ![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_25_7.png)
 
 ## Parallel coordinate plot
+
 ```python
 total_quantity_by_fruit_and_country = (data.groupby(
     ['fruit', 'country'])['quantity'].sum().reset_index())
@@ -542,14 +542,11 @@ ch.show('png')
 
 ![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_27_1.png)
 
-
 ## Heatmap
 ```python
 ```average_price_by_fruit_and_country = (data.groupby(
     ['fruit', 'country'])['total_price'].mean().reset_index())
 
-
-# Plot the data
 ```python
 (chartify.Chart(
     blank_labels=True,
@@ -569,7 +566,7 @@ ch.show('png')
     .show('png'))
 ```
 
-![png](output_31_1.png)
+![png](https://raw.githubusercontent.com/fcamuz/fcamuz.github.io/master/_posts/Examples/output_31_1.png)
 
 ## Single density axis
 
