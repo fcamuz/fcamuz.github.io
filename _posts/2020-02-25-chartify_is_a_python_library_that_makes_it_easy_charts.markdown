@@ -188,6 +188,7 @@ ch.show('png')
 
 ![png](Examples/output_8_1.png)
 
+![png](https://github.com/fcamuz/fcamuz.github.io/tree/master/_posts/Examples/output_8_1.png)
 
 You may define 
 
