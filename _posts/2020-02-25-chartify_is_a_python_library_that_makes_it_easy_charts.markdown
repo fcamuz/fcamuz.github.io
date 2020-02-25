@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Chartify is a Python library that makes it easy  charts"
-date:       2020-02-25 19:03:58 +0000
+title:      "Chartify is a Python library for easy visualization"
+date:       2020-02-25 14:03:59 -0500
 permalink:  chartify_is_a_python_library_that_makes_it_easy_charts
 ---
 
