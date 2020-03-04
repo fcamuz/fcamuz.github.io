@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Why to Chose MongoDB over SQL"
-date:       2020-03-04 04:17:06 +0000
+date:       2020-03-03 23:17:06 -0500
 permalink:  why_to_chose_mongodb_over_sql
 ---
 
