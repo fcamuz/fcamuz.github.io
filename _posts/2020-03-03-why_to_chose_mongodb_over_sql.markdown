@@ -11,9 +11,9 @@ I was recently asked a question about MongoDB in an interview. The question was 
 SQL stands for Structured Query Language. Databases are categorized as SQL and NoSQL. NoSQL is simple the ones that are not SQL. MongoDB is in the NoSQL side. SQL is created by Microsoft years before the MongoDB created by MongoDB. 
 MongoDB data base is widely used, and it performs mostly better than SQL database. There basically three main important features of MongoDB that makes it preferable.
 
-##### 1.	Flexibility
-##### 2.	Performance
-##### 3.	Scalability
+#### 1.	Flexibility
+#### 2.	Performance
+#### 3.	Scalability
 
 ### Flexibility
 
